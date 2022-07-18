@@ -1,0 +1,57 @@
+:root {
+    --soft-red: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --dark-blue: hsl(198, 62%, 26%);
+    --dark-moderate-cyan: hsl(168, 34%, 41%);
+    --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --dark-grayish-blue: hsl(232, 10%, 55%);
+    --grayish-blue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+}
+
+html {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav {
+    background-color: antiquewhite;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: url("./assets/image-header.jpg") no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
+
+img {
+    
+    margin: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 50vh;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */

@@ -1,0 +1,126 @@
+:root {
+    --branco: #FFFFFF;
+    --verde-escuro: #2AB3B1;
+    --amarelo: #C0DF33;
+    --verde-claro: #9AA7BE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background-color: #E6EFF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: var(--branco);
+    max-width: 635px;
+    min-height: 475px;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px 0px hsla(212, 100%, 33%, 0,15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-superior {
+    padding: 40px;
+    flex-grow: 1;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--verde-escuro);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--amarelo);
+    margin: 24px 0 11px 0;
+}
+
+.container-superior p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--verde-claro);
+}
+.container-inferior {
+    background-color: var(--verde-escuro);
+    display: flex;
+    flex-grow: 1;
+}
+
+.esquerda {
+    padding: 40px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--branco);
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.95;
+    color: var(--branco);
+    margin: 18px 0 4px 0;
+}
+
+.esquerda span {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: var(--branco);
+}
+
+.esquerda p {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--branco);
+}
+
+.esquerda a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px 89px;
+    background-color: var(--amarelo);
+    color: var(--branco);
+    border-radius: 5px;
+    margin-top: 26px;
+}
+
+.direita {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.15)
+}
+
+.direita p {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.175px;
+    color: white;
+    width: 238px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    padding-right: 57px;
+}
+
